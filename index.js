@@ -95,3 +95,7 @@ exports.constants = {
   'POINT_CONVERSION_UNCOMPRESSED': 4,
   'POINT_CONVERSION_HYBRID': 6
 }
+
+var webcrypto = require('@peculiar/webcrypto');
+
+exports.webcrypto = webcrypto;
